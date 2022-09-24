@@ -5,7 +5,7 @@ require 'function.php';
 $idArtikel = $_GET["id"];
 
 $point = data("SELECT * FROM artikel WHERE id='$idArtikel'")[0];
-$title = "Sona Wisata | " . $point['tempat'];
+$title = "WISATA GLAGAH | " . $point['tempat'];
 $artikel = data("SELECT * FROM artikel WHERE id='$idArtikel'");
 
 if (isset($_POST["kirim"])) {
@@ -48,6 +48,7 @@ if (isset($_POST["kirim"])) {
     <link rel="stylesheet" href="http://localhost/utsweb2/assets/fontawesome-free/css/all.min.css">
     <link href="assets/css/style.css" rel="stylesheet">
     <script src="assets/jquery/jquery-3.4.1.min.js"></script>
+    <link rel="shortcut icon" href="images/iconwisata.png">
 </head>
 
 <body id="page-top">

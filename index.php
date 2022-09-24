@@ -31,7 +31,7 @@ require_once('bdd.php');
 <link rel="stylesheet" href="css/font-icon.css">
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel="shortcut icon" href="images/jogjakublack.png">
+<link rel="shortcut icon" href="images/iconwisata.png">
 <style>
 .btn {
   background-color: gray;
@@ -110,7 +110,7 @@ require_once('bdd.php');
             <div class="col-md-8">
 
                 <!--Satu-->
-                <iframe width="750" height="400" src="https://www.youtube.com/embed/YMDf_wgYMnU" frameborder="0" allowfullscreen></iframe>
+                <iframe width="725" height="375" src="https://www.youtube.com/embed/YMDf_wgYMnU" frameborder="0" allowfullscreen></iframe>
                 <p><h4>Sendang Glagah</h4></p>
                 <p class="justify">Sendang Glagah terletak di desa Glagah, sebelah barat Jatinom. Sendang ini begitu keramatnya sampai pernah ada yg kalap, hilang, saat mengambil ikan, ada juga yg dilihati makhluk gaib biasanya dalam wujud ular naga, kadang wewe gombel. Kesakralan tempat ini masih dirasakan sampai hari ini, sehingga masih dipegqng kehayi hatian, penghormatan dan beberapa masih memberikan sajen di pusat umbul di sendang ini ditemukan batu berinskripsi, mungkin satu saat bisa di dichiper oleh para epigraf, dan banyak batu candi yg masih teroendammdi salah satu pusat mata air,membuktikan bahwa sendang ini merupakan petirthan kuno.</p>
                 <br>
@@ -119,7 +119,7 @@ require_once('bdd.php');
 
                 <!--Dua-->
                 <hr>
-                <iframe width="750" height="400" src="https://www.youtube.com/embed/YHYxUqoRwCg" frameborder="0" allowfullscreen></iframe>
+                <iframe width="725" height="375" src="https://www.youtube.com/embed/YHYxUqoRwCg" frameborder="0" allowfullscreen></iframe>
                 <p><h4>Sendang Glagah, Sendang Keramat di Kecamatan Jatinom</h4></p>
                 <p class="justify">Sendang Glagah terletak di desa Glagah, sebelah barat Jatinom. Sendang ini begitu keramatnya sampai pernah ada yg kalap, hilang, saat mengambil ikan, ada juga yg dilihati makhluk gaib biasanya dalam wujud ular naga, kadang wewe gombel. Kesakralan tempat ini masih dirasakan sampai hari ini, sehingga masih dipegqng kehayi hatian, penghormatan dan beberapa masih memberikan sajen di pusat umbul di sendang ini ditemukan batu berinskripsi, mungkin satu saat bisa di dichiper oleh para epigraf, dan banyak batu candi yg masih teroendammdi salah satu pusat mata air,membuktikan bahwa sendang ini merupakan petirthan kuno.</p>
                 <br>

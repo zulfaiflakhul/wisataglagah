@@ -30,7 +30,7 @@ require_once('bdd.php');
 <link rel="stylesheet" href="css/font-icon.css">
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel="shortcut icon" href="images/jogjakublack.png">
+<link rel="shortcut icon" href="images/iconwisata.png">
 </head>
 
 <body>
@@ -130,21 +130,7 @@ require_once('bdd.php');
 <!-- contact section -->
 <!-- contact section --> 
 <!-- Footer section -->
-<footer class="footer">
-  <div class="footer-top section">
-    <div class="container" align="center">
-      <div class="row">
-        <a style="padding:20px"; href="#"><i class="fa fa-facebook"></i></a>
-        <a style="padding:20px"; href="#"><i class="fa fa-twitter"></i></a>
-        <a style="padding:20px"; href="#"><i class="fa fa-linkedin"></i></a>
-        <a style="padding:20px"; href="#"><i class="fa fa-google-plus"></i></a>
-        <br>
-        <br>
-      <p>Copyright © 2015 jogjaku.com All Rights Reserved. Made by Vitto | Distributed By <a href="https://blogbugabagi.blogspot.com" target="_blank" rel="noopener noreferrer">BlogBugaBagi</a></p>
-      </div>
-    </div>
-  </div>
-</footer>
+
 <!-- Footer section --> 
 <!-- JS FILES --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 

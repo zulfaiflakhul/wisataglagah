@@ -38,6 +38,7 @@ if (isset($_POST["saveArtikel"])) {
     <link rel="stylesheet" href="http://localhost/utsweb2/assets/fontawesome-free/css/all.min.css">
     <script src="http://localhost/utsweb2/assets/ckeditor/ckeditor.js"></script>
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/iconwisata.png">
 
 </head>
 

@@ -28,8 +28,7 @@ if(!empty($sesiData['status']['msg'])){
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="images/jogjakublack.png">
-
+    <link rel="shortcut icon" href="images/iconwisata.png">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -126,16 +125,20 @@ if(!empty($sesiData['status']['msg'])){
         </div>
     </div>
         <!-- Footer -->
-        <footer>
-        <div class="row">
-                <div class="col-lg-12">
-                </br>
-                </br>
-                </br>
-                <p class="text-center">Copyright © 2022 WisataGlagah All Rights Reserved. Made by Team KKN KUNY Unit 26293</p>
+    <footer class="footer">
+        <div class="footer-top section">
+            <div class="container" align="center">
+                <div class="row">
+                    <a style="padding:20px"; href="#"><i class="fa fa-facebook"></i></a>
+                    <a style="padding:20px"; href="#"><i class="fa fa-twitter"></i></a>
+                    <a style="padding:20px"; href="#"><i class="fa fa-instagram"></i></a>
+                    <br>
+                    <br>
+                    <p>Copyright © 2022 WisataGlagah All Rights Reserved. Made by Team KKN KUNY Unit 26293</p>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
     </div>
     <!-- /.container -->

@@ -31,8 +31,7 @@ require_once('bdd.php');
 <link rel="stylesheet" href="css/font-icon.css">
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel="shortcut icon" href="images/jogjakublack.png">
-</head>
+<link rel="shortcut icon" href="images/iconwisata.png">
 
 <body>
 <!-- header section -->
