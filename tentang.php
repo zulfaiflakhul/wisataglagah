@@ -21,7 +21,7 @@ require_once('bdd.php');
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JOGJAKU</title>
+<title>WISATA GLAGAH</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/flexslider.css">
 <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -82,7 +82,7 @@ require_once('bdd.php');
                         if(!isset($_SESSION['admin'])){
                     ?>
                     <h6>TENTANG KAMI</h6>
-                    <p>Sebuah website yang menyajikan objek - objek wisata sekitar Yogyakarta yang cocok bagi Anda yang ingin mencari tempat wisata di sekitar Yogyakarta</p>
+                    <p>Website ini menyajikan informasi mengenai wisata di Desa Glagah yang cocok untuk dikunjungi dan berita terbaru mengenai wisata di Desa Glagah</p>
                     <br>
                     </li>
                     <?php }else{?>
@@ -100,23 +100,23 @@ require_once('bdd.php');
     <div class="row">
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-map-pin" style="color:#F60"></span>
         <div class="services-content">
-          <h5>OUR OFFICE LOCATION</h5>
-          <p>Jl.Sisingamangaraja, Sitoluama, Laguboti, Kabupaten Toba Samosir, Sumatera Utara 22381</p>
+          <h5>Lokasi Kami</h5>
+          <p>Jeruk Manis, Desa Glagah, Kecamatan Jatinom, Kabupaten Klaten, Jawa Tengah 57481</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-envelope" style="color:#F60"></span>
         <div class="services-content">
           <h5>EMAIL</h5>
-          <p>iss15032@del.ac.id</p>
+          <p>gatotsutopo1965@gmail.com</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-phone" style="color:#F60"></span>
         <div class="services-content">
           <h5>PHONE NUMBER</h5>
-          <p>(061)04081997</p>
+          <p>(272) 337 128</p>
         </div>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d254778.07709969318!2d98.8287953!3d3.8300274!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e00fdad2d7341%3A0xf59ef99c591fe451!2sInstitut+Teknologi+Del!5e0!3m2!1sid!2sid!4v1507089316325" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/place/Balai+Desa+Glagah,jatinom,Kabupaten+Klaten,Jawa+Tengah/@-7.629875,110.582669,16.68z/data=!4m5!3m4!1s0x0:0x4ba90ee0e12131b7!8m2!3d-7.629982!4d110.582499" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </div>
 </section>
@@ -130,7 +130,20 @@ require_once('bdd.php');
 <!-- contact section -->
 <!-- contact section --> 
 <!-- Footer section -->
-
+<footer class="footer">
+  <div class="footer-top section">
+    <div class="container" align="center">
+      <div class="row">
+        <a style="padding:20px"; href="#"><i class="fa fa-facebook"></i></a>
+        <a style="padding:20px"; href="#"><i class="fa fa-twitter"></i></a>
+        <a style="padding:20px"; href="#"><i class="fa fa-instagram"></i></a>
+        <br>
+        <br>
+        <p>Copyright © 2022 WisataGlagah All Rights Reserved. Made by Team KKN KUNY Unit 26293</p>
+      </div>
+    </div>
+  </div>
+</footer>
 <!-- Footer section --> 
 <!-- JS FILES --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
