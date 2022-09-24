@@ -116,7 +116,7 @@ require_once('bdd.php');
           <p>(272) 337 128</p>
         </div>
       </div>
-      <iframe src="https://www.google.com/maps/place/Balai+Desa+Glagah,jatinom,Kabupaten+Klaten,Jawa+Tengah/@-7.629875,110.582669,16.68z/data=!4m5!3m4!1s0x0:0x4ba90ee0e12131b7!8m2!3d-7.629982!4d110.582499" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=Balai+Desa+Glagah,jatinom,Kabupaten+Klaten,Jawa+Tengah/@-7.629875,110.582669,16.68z/data=!4m5!3m4!1s0x0:0x4ba90ee0e12131b7!8m2!3d-7.629982!4d110.582499" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </div>
 </section>
