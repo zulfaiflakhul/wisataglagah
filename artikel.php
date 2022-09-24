@@ -125,7 +125,7 @@ $artikel = data("SELECT * FROM artikel WHERE sts = 'approved' LIMIT $dtawl, $jum
                         <a class=" portfolio-link card">
                         <img class="card-img-top" height="150px" src="images/foto/<?= $brs['foto']; ?>" alt="">
                         </a>
-                        <div class="card-body bg-white" style="height: 100px;">
+                        <div class="card-body bg-white" style="height: 150px;">
                             <h5 class="card-title"><?= $brs["tempat"]; ?></h5>
                             <strong><?= $brs["lokasi"]; ?></strong>
                             <p></p>
