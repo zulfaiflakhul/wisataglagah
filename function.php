@@ -1,5 +1,5 @@
 <?php
-$knk = mysqli_connect("localhost", "root", "", "jogjaku");
+$knk = mysqli_connect("remotemysql.com", "sFHrMh1E0v", "9lcJ2yWj5L", "sFHrMh1E0v");
 
 //artikel wisata
 

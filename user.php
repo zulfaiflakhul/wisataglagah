@@ -4,10 +4,10 @@
  * Class ini digunakan untuk database yang terkait dengan operation (fetch, dan insert)
  */
 class User{
-    private $dbHost     = 'localhost';
-    private $dbUsername = 'root';
-    private $dbPassword = '';
-    private $dbName     = 'jogjaku';
+    private $dbHost     = 'remotemysql.com';
+    private $dbUsername = 'sFHrMh1E0v';
+    private $dbPassword = '9lcJ2yWj5L';
+    private $dbName     = 'sFHrMh1E0v';
     private $userTbl    = 'user';
     private $galeriTbl  = 'galeri';
     
