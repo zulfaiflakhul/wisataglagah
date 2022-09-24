@@ -125,20 +125,16 @@ if(!empty($sesiData['status']['msg'])){
         </div>
     </div>
         <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-top section">
-            <div class="container" align="center">
-                <div class="row">
-                    <a style="padding:20px"; href="#"><i class="fa fa-facebook"></i></a>
-                    <a style="padding:20px"; href="#"><i class="fa fa-twitter"></i></a>
-                    <a style="padding:20px"; href="#"><i class="fa fa-instagram"></i></a>
-                    <br>
-                    <br>
-                    <p>Copyright © 2022 WisataGlagah All Rights Reserved. Made by Team KKN KUNY Unit 26293</p>
+        <footer>
+        <div class="row">
+                <div class="col-lg-12">
+                </br>
+                </br>
+                </br>
+                <p class="text-center">Copyright © 2022 WisataGlagah All Rights Reserved. Made by Team KKN KUNY Unit 26293</p>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
     </div>
     <!-- /.container -->

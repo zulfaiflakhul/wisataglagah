@@ -118,7 +118,7 @@ require_once('bdd.php');
       </div>
     </div>
     <div class="text-center">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15817.971267356465!2d110.5824697!3d-7.6300293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ba90ee0e12131b7!2sBalai%20Desa%20Glagah%2Cjatinom%2CKabupaten%20Klaten%2CJawa%20Tengah!5e0!3m2!1sid!2sid!4v1663985649492!5m2!1sid!2sid" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15817.971267356465!2d110.5824697!3d-7.6300293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ba90ee0e12131b7!2sBalai%20Desa%20Glagah%2Cjatinom%2CKabupaten%20Klaten%2CJawa%20Tengah!5e0!3m2!1sid!2sid!4v1663985649492!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
   </div>
 </section>
