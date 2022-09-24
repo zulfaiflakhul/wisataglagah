@@ -1,4 +1,17 @@
 <?php
+session_start();
+$sesiData = !empty($_SESSION['sesiData'])?$_SESSION['sesiData']:'';
+if(!empty($sesiData['status']['msg'])){
+    $statusPsn = $sesiData['status']['msg'];
+    $jenisStatusPsn = $sesiData['status']['type'];
+    unset($_SESSION['sesiData']['status']);
+}
+?>
+<?php
+require_once('bdd.php');
+?>
+
+<?php
 $title = "WISATA GLAGAH | Buat Artikel";
 require 'function.php';
 if (isset($_POST["saveArtikel"])) {
