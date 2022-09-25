@@ -10,13 +10,8 @@ if(!empty($sesiData['status']['msg'])){
 $title = "WISATA GLAGAH | Buat Artikel";
 require 'function.php';
 require_once('bdd.php');
-?>
+if (isset($_POST["saveArtikel"]) && (!isset($_SESSION['admin']))) {
 
-<!---->
-<?php 
-    if(!isset($_SESSION['admin'])){?>
-        </li>
-<?php }else if (isset($_POST["saveArtikel"])){
     if (addArtikelUS($_POST) > 0) {
         echo "
       <script>
@@ -31,8 +26,9 @@ require_once('bdd.php');
         document.location.href = 'artikel.php';
       </script>
       ";
-    }?>
-<?php }?>
+    }
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
