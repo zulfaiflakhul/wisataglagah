@@ -120,7 +120,7 @@ require_once('bdd.php');
     ?>
      <div class="col-lg-3 col-md-6 col-sm-6 work"> 
      <a <?php echo "href='images/foto/".$data['foto']."'"     ;?>  class="work-box">
-        <?php echo "<img src='images/foto/".$data['foto']."'>";?> 
+        <?php echo "<img src='images/foto/".$data['foto']."' height='200' width='auto'>";?> 
         <div class="overlay">
           <div class="overlay-caption">
             <h5><?php echo "".$data['jenis_wisata'].""; ?></h5>

@@ -179,10 +179,10 @@ require_once('bdd.php');
                           <img href="wisataalam.php" src="images/foto/alam/a1.jpg" style="height: 100%">
                       </li>
                       <li>
-                          <img href="wisataalam.php" src="images/foto/alam/b1.jpg" style="height: 100%">
+                          <img href="wisataalam.php" src="images/foto/alam/a2.jpg" style="height: 100%">
                       </li>
                       <li>
-                          <img href="wisataalam.php" src="images/foto/alam/c1.jpg" style="height: 100%">
+                          <img href="wisataalam.php" src="images/foto/alam/a3.jpg" style="height: 100%">
                       </li>
                       </ul>
                       </div>
