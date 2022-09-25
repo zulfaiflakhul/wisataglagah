@@ -6,9 +6,9 @@ if(!empty($sesiData['status']['msg'])){
     $jenisStatusPsn = $sesiData['status']['type'];
     unset($_SESSION['sesiData']['status']);
 }
-
+?>
+<?php
 require_once('bdd.php');
-require 'function.php';
 ?>
 
 <?php
