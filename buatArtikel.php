@@ -14,7 +14,7 @@ require_once('bdd.php');
 <?php
 $title = "WISATA GLAGAH | Buat Artikel";
 require 'function.php';
-if (isset($_POST["saveArtikel"])) {
+if (isset($_POST["saveArtikel"]) && (!isset($_SESSION['admin']))) {
 
     if (addArtikelUS($_POST) > 0) {
         echo "
