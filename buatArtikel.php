@@ -20,7 +20,7 @@ if (isset($_POST["saveArtikel"])) {
         echo "
       <script>
         alert('Data berhasil disimpan. Data anda sedang menunggu persetujuan dari pihak pengelola sebelum dipublikasi');
-        document.location.href = 'buatArtikel.php';
+        document.location.href = 'artikel.php';
       </script>
       ";
     } else {
