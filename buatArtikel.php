@@ -6,16 +6,17 @@ if(!empty($sesiData['status']['msg'])){
     $jenisStatusPsn = $sesiData['status']['type'];
     unset($_SESSION['sesiData']['status']);
 }
-?>
-<?php
+
+$title = "WISATA GLAGAH | Buat Artikel";
+require 'function.php';
 require_once('bdd.php');
 ?>
 
-<?php
-$title = "WISATA GLAGAH | Buat Artikel";
-require 'function.php';
-if (isset($_POST["saveArtikel"]) && (!isset($_SESSION['admin']))) {
-
+<!---->
+<?php 
+    if(!isset($_SESSION['admin'])){?>
+        </li>
+<?php }else if (isset($_POST["saveArtikel"])){
     if (addArtikelUS($_POST) > 0) {
         echo "
       <script>
@@ -30,9 +31,9 @@ if (isset($_POST["saveArtikel"]) && (!isset($_SESSION['admin']))) {
         document.location.href = 'artikel.php';
       </script>
       ";
-    }
-}
-?>
+    }?>
+<?php }?>
+
 <!DOCTYPE html>
 <html lang="en">
 
