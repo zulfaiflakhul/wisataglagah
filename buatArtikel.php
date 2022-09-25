@@ -6,9 +6,9 @@ if(!empty($sesiData['status']['msg'])){
     $jenisStatusPsn = $sesiData['status']['type'];
     unset($_SESSION['sesiData']['status']);
 }
-?>
-<?php
+
 require_once('bdd.php');
+require 'function.php';
 ?>
 
 <?php
@@ -27,7 +27,7 @@ if (isset($_POST["saveArtikel"])) {
         echo "
       <script>
         alert('Data gagal disimpan.');
-        document.location.href = 'buatArtikel.php';
+        document.location.href = 'artikel.php';
       </script>
       ";
     }
